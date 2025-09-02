@@ -42,7 +42,7 @@ export default function Page() {
       <section className='border-b border-black/10'>
         <Container className='grid items-center gap-8 py-16 md:grid-cols-2 md:py-24'>
           <div>
-            <div className='inline-flex items-center rounded-full border border-black/10 px-3 py-1 text-xs'>Gestió de xarxes socials · Contingut · Ads</div>
+            <div className='inline-flex items-center rounded-full border border-black/10 px-3 py-1 text-xs'>Gestó de xarxes socials · Contingut · Ads</div>
             <h1 className='mt-4 text-4xl font-extrabold leading-tight md:text-5xl'>
               Més Impacte a les teves <span className='underline underline-offset-4 decoration-black'>xarxes socials</span>
             </h1>
@@ -115,7 +115,7 @@ export default function Page() {
         <Container>
           <h2 className='text-2xl font-bold md:text-3xl'>Plans i preus</h2>
           <div className='mt-8 grid gap-6 md:grid-cols-3'>
-            [{
+            {[{
               name: 'Social Starter', price: '349€ / mes', points: ['12 posts/mes','Stories setmanals','Resposta bàsica','Informe mensual'], cta: 'Demana info'
             },{
               name: 'Social Pro', price: '649€ / mes', points: ['16-20 posts','UGC trimestral','Community 1h/dia','Ads bàsic'], cta: 'Parlem'
